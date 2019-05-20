@@ -85,7 +85,7 @@ if (__name__ == '__main__'):
 	kitap_liste=[]
 	collected_book=0
 
-	with open('TextBook_Link_Lists.csv', 'r') as csv_file:
+	with open('input.csv', 'r') as csv_file:
 		csv_reader = csv.reader(csv_file)
 
 	
